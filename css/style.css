@@ -1,11 +1,11 @@
 .header {
 	
-	margin-top:-15px;
+	margin-top:7px;
 }
 
 .menu {
 	float:right;
-	margin-right:30px;
+	margin-right:25px;
 	
 	
 }
@@ -32,9 +32,8 @@
 
 }
 
-.menu li:nth-child(3) {
-	
-	margin-top:5px;
+.menu li a img {
+	vertical-align:middle;
 }
 
 
