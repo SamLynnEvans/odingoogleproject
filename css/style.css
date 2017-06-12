@@ -127,5 +127,44 @@ cursor: pointer;
 	padding:10px 20px;
 }
 
+.footer {
+
+	position:absolute;
+	bottom:0;
+	height:50px;
+	width:100%;
+	background-color:#F2F2F2;
+}
+
+.left-menu {
+	float:left;
+}
+
+.right-menu {
+	float:right;
+}
+
+.footer a {
+	font-family: arial;
+	font-size:small;
+	color:#7B7B7B;
+}
+
+.footer a:hover {
+	text-decoration:underline;
+}
+
+.footer li {
+	padding:0 10px;
+}
+
+.left-menu a {
+	text-decoration:none;
+}
+
+.right-menu a {
+		text-decoration:none;
+}
+
 
 
