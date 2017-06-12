@@ -38,26 +38,26 @@
 
 
 .content {
+	display:block;
+	position:absolute;
 	height:300px;
-	width:300px;
-background-color:red;
-position:absolute;
-top:0;
-bottom:0;
-left:0;
-right:0;
+	width:800px;
+	right:0;
+	left:0;
+	margin:auto;
+	
+	margin-top:170px;
+	
+background-color:white;
 
-margin:auto;
 
 }
 .logo {
-	position:absolute;
-top:-50px;
-bottom:0;
-left:0;
-right:0;
-
-margin:auto;
+	position:relative;
+	right:0;
+	left:0;
+	top:20px;
+	margin:auto;
 	height:92px;
 	width:272px;
 background: url(https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat center center;
@@ -65,3 +65,30 @@ background-size:cover;
 
 }
 
+input {
+	position:absolute;
+	right:0;
+	left:0;
+		top:150px;
+	margin:auto;
+
+	height:34px;
+	width:453px;
+	border: 1px solid #E7E7E7;
+	border-bottom:1px solid #C4C4C4;
+	box-shadow: #E1E1E1 0 2px 2px 2px;
+	font-size:20px;
+
+
+}
+
+form > img {
+	position:relative;
+	margin-top:65px;
+	margin-left:580px;
+
+}
+
+form > img:hover {
+cursor: pointer;
+}
