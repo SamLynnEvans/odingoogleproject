@@ -1,0 +1,68 @@
+.header {
+	
+	margin-top:-15px;
+}
+
+.menu {
+	float:right;
+	margin-right:30px;
+	
+	
+}
+
+.menu ul li {
+	list-style: none;
+	display:inline-block;
+}
+
+#login {
+	background-color:#4486F7;
+	color:white;
+	padding:6px 12px;
+	font-weight: bold;
+	
+}
+
+.menu ul li a {
+	padding:0px 10px;
+	text-decoration:none;
+	font-size: small;
+	font-family:arial;
+	color:#7B7B7B;
+
+}
+
+.menu li:nth-child(3) {
+	
+	margin-top:5px;
+}
+
+
+.content {
+	height:300px;
+	width:300px;
+background-color:red;
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+
+margin:auto;
+
+}
+.logo {
+	position:absolute;
+top:-50px;
+bottom:0;
+left:0;
+right:0;
+
+margin:auto;
+	height:92px;
+	width:272px;
+background: url(https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat center center;
+background-size:cover;
+
+}
+
